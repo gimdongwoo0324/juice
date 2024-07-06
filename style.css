@@ -1,0 +1,176 @@
+body {
+    background-color:rgba(228, 177, 158, 0.966);
+}
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.juice {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    font-size: 30px;
+    color: white;
+}
+
+a {
+    position: relative;
+    right: -1800px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    color: white;
+    text-decoration: none;
+    font-size: 15px
+    
+}
+
+
+.home {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+img {
+    position: relative;
+    left: 0px;
+    transform: scale(0.7);
+    background: rgba(0,0,0,0.5)
+}
+
+.home h1 {
+    color: white;
+    position: relative;
+    bottom: -250px;
+    left: -50px;
+}
+
+.home p {
+    color: white;
+    position: relative;
+    bottom: -250px;
+    left: -50px;
+    font-size: 20px;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 140px;
+}
+
+
+
+.two {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 140px;
+}
+
+.two > img {
+    width: 600px;
+    height: 400px;
+}
+
+
+
+.one div {
+    position: relative;
+    bottom: -200px;
+
+}
+
+.two div {
+    position: relative;
+    bottom: -100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 25px;
+    color: white;
+    background-color: rgb(241, 177, 56);
+    
+}
+
+
+footer > h2 {
+    position: relative;
+    right: -50px;
+}
+footer div > i {
+    position: relative;
+    right: -1570px;
+    top: 35px;
+
+    
+}
+
+footer div > p {
+    position: relative;
+    right: -1600px;
+    top: -3px;
+}
+
+
+
+
+label:nth-child(1n) {
+    display: block;
+    
+    padding: 20px;
+    width: 25%;
+    border: 1px solid #292cb8;
+    border-bottom: 0;
+    color: #fff;
+    font-weight: 900;
+    background: #292cb8;
+    cursor: pointer;
+    position: relative;
+}
+
+label:nth-child(1n) em {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+
+ 
+
+}
+
+
+
+._two:nth-child(1n) {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    position: relative;
+    top: -50px;
+    right: -38%;
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+    background-color: #292cb8;
+    cursor: pointer;
+    
+}
+
+
+
+img:nth-child(1n) {
+    left: -40px;
+    background-color: #ebf8ff;
+}
